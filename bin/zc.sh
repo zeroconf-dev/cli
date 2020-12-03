@@ -136,10 +136,11 @@ It must be a writable target directory\n' "$prefix" >&2
     }
 
     if [ -z "$ZC_PROJECT_PATH" ]; then
-        if [ -n "$PROJEC_PATH" ]; then
-            ZC_PROJECT_PATH="$PROJEC_PATH"
+        if [ -n "$PROJECT_PATH" ]; then
+            ZC_PROJECT_PATH="$PROJECT_PATH"
         else
             ZC_PROJECT_PATH=$(find_project_root)
+            export PROJECT_PATH=$ZC_PROJECT_PATH
         fi
     fi
 
