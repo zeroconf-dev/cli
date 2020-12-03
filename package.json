@@ -1,0 +1,33 @@
+{
+  "name": "@zeroconf/cli",
+  "bin": {
+    "zc": "./bin/zc.sh"
+  },
+  "version": "1.0.0",
+  "description": "Generic CLI task runner, find and run tasks / tools easily",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroconf-dev/cli.git"
+  },
+  "keywords": [
+    "command-line",
+    "command line",
+    "cli",
+    "runner",
+    "task",
+    "tool"
+  ],
+  "author": {
+    "name": "Brian Kejlberg",
+    "email": "briankchristensen@gmail.com",
+    "url": "https://github.com/thetrompf"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/zeroconf-dev/cli/issues"
+  },
+  "homepage": "https://github.com/zeroconf-dev/cli#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
