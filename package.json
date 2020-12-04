@@ -3,7 +3,7 @@
   "bin": {
     "zc": "./bin/zc.sh"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generic CLI task runner, find and run tasks / tools easily",
   "repository": {
     "type": "git",
