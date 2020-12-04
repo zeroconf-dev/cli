@@ -72,9 +72,9 @@ It must be a writable target directory\n' "$prefix" >&2
             maxdepth="-maxdepth 1"
         fi
 
-        # shellcheck disable=2086
+        # shellcheck disable=2086,2068
         find \
-            "${ZC_BIN_PATHS[@]}" \
+            ${ZC_BIN_PATHS[@]} \
             $maxdepth \
             -perm "$perm" \
             \( -name "$task_name" -o -name "$task_name.*" \) \
