@@ -1,3 +1,5 @@
+⚠️ This repository is archived and the development is moved to [@orbit-online/task-runner](https://github.com/orbit-online/task-runner) ⚠️
+
 # Generic CLI task runner
 
 Run all executables local to you project behind namespace (`zc`).
